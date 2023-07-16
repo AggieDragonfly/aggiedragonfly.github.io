@@ -12,5 +12,21 @@
         </ul>
         <h2>Graph Project</h2>
         <p>Some of informations we will put here later.</p>
+        <code><pre> public static void DisplayPath(Node[] currentPath ){
+            if ( currentPath != null){
+                System.out.println(&quot;We found your connection&quot;);
+                System.out.println(&quot;Your path: &quot;);
+                Node last = currentPath[currentPath.length - 1];
+                for (Node steps : currentPath) {
+    
+                   System.out.print(steps);
+                   if( last != steps) {
+                    System.out.print(&quot;=&gt;&quot;);
+                    }
+                }
+                System.out.println();
+            } else {
+                System.out.println(&quot;There is no connection&quot;);
+            }</pre></code>
     </body>
 </html>
