@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Graph Project</title>
+    </head>
+    <body>
+        <h1>Aggie's Portfolio</h1>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="graph.html">Graph Project</a></li>
+            <li><a href="bubble.html">Bubble Sort Project</a></li>
+            <li><a>Product Project</a></li>
+        </ul>
+        <h2>Graph Project</h2>
+        <p>Some of informations we will put here later.</p>
+        <code><pre>public class Product {
+
+    private String _name;
+    private String _brand;
+    private double _price;
+    private int _stock;
+
+
+    public Product(String name, String brand, double price, int stock) {
+        _name = name;
+        _brand = brand;
+        _price = price;
+        _stock = stock;
+
+    }
+
+    public String getName() {
+        return _name;
+    }
+
+    public String getBrand() {
+        return _brand;
+    }
+
+    public double getPrice() {
+        return _price;
+    }
+
+    public int getStock() {
+        return _stock;
+    }
+
+
+    public String getDescription() {
+        if (_stock != 0) {
+            return  _name + " MARKA PRODUKTU : " + _brand+ " CENA: "   + String.format("%.2f", _price)+ " zl" + " ILOSC: " + _stock + " WARTOSC TWOICH PRODUKTOW: " + TotalWorth() + " zl" ;
+        } else {
+            return _name + " MARKA PRODUKTU: " + _brand+ "CENA: "  +  String.format("%.2f", _price) + " zl";
+        }
+    }
+
+    public double TotalWorth() {
+
+        double HowMuch = _price * _stock;
+        return HowMuch;
+    }
+}</pre></code>
+    </body>
+</html>
