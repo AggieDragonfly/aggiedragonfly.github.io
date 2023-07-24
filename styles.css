@@ -21,3 +21,5 @@ pre {
     width:300px;
     border-radius: 6%;
 }
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
