@@ -19,7 +19,7 @@ pre {
 }
 #bigos {
     width:370px;
-    border-radius: 6%;
+    border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
 }
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #FFF}
