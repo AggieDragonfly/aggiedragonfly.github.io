@@ -17,3 +17,7 @@ pre {
 .greentext{
     color: green;
 }
+#bigos {
+    width:300px;
+    border-radius: 6%;
+}
