@@ -1,28 +1,39 @@
 body {
-    background-color: bisque;
+    background-color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h1 {
-    color: blue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 2);
+    font-family: monospace;
     font-weight: bold;
     font-style: italic;
     font-size: 40pt;
 }
+
 pre {
     color: lightgray;
     background-color: darkgray;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .greentext{
     color: green;
 }
+
 #bigos {
     width:370px;
     border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
 }
+
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #FFF}
+
 .tablesize {
     width: 85%;
 }
+
+.center {
+    text-align: center;
+  }
+
