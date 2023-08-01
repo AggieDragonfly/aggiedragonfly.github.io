@@ -1,14 +1,14 @@
 body {
     background-color: cornsilk;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Lucida Console", "Courier New", sans-serif;
 }
 
 h1 {
     color: rgb(0, 0, 2);
     font-family: monospace;
     font-weight: bold;
-    font-style: italic;
-    font-size: 40pt;
+    font-style: "Lucida Console", "Courier New", monospace;
+    font-size: 50pt;
 }
 
 pre {
