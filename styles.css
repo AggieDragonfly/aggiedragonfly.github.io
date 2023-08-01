@@ -70,7 +70,8 @@ tr:nth-child(odd) {background: #FFF}
   }
 
   div {
-    padding: 70px;
-    border: 1px solid #4CAF50;
+    border: 1px solid black;
+    padding: 25px 50px;
+    background-color: lightblue;
   }
 
