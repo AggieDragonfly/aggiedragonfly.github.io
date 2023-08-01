@@ -40,30 +40,6 @@ tr:nth-child(odd) {background: #FFF}
 .center {
     text-align: center;
   }
-  div {
-    float: left;
-    padding: 15px; 
-  }
-  
-  .div1 {
-    background: rgb(185, 87, 156);
-    width:15%;
-  }
-  
-  .div2 {
-    background: rgb(105, 147, 182);
-    width:15%;
-  }
-  
-  .div3 {
-    background: rgb(152, 214, 152);
-    width:15%;
-  }
-
-  .div4 {
-    background: rgb(204, 196, 106);
-    width:15%;
-  }
 
   ul {
     list-style-type: none;
@@ -91,5 +67,10 @@ tr:nth-child(odd) {background: #FFF}
   
   .active {
     background-color: red;
+  }
+
+  div {
+    padding: 70px;
+    border: 1px solid #4CAF50;
   }
 
