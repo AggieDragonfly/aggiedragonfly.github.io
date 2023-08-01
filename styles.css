@@ -36,4 +36,24 @@ tr:nth-child(odd) {background: #FFF}
 .center {
     text-align: center;
   }
+  div {
+    float: left;
+    padding: 15px; 
+  }
+  
+  .div1 {
+    background: rgb(185, 87, 156);
+  }
+  
+  .div2 {
+    background: rgb(105, 147, 182);
+  }
+  
+  .div3 {
+    background: rgb(152, 214, 152);
+  }
+
+  .div4 {
+    background: rgb(58, 56, 36);
+  }
 
