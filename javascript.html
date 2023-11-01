@@ -12,15 +12,37 @@
       </ul>
         <h1 class="center">AGGIE'S PORTFOLIO</h1>
         
-        <button id="Guzik">Click me!</button>
+        <button id="button-smaller">Make smaller</button>
+        <button id="button-bigger">Make bigger</button>
+        
+        <p id="dynamic-size-text">Hi, this is some random text!</p>
+        
         <script>
-            var btn = document.getElementById("Guzik");
-            btn.addEventListener("click", function(){
-                alert("Hello world");
-            
-            }, false);
-            
+        var fontSize = 20;
+        
+        function updateFontSize(size) {
+          var textElement = document.getElementById("dynamic-size-text");
+          textElement.style.fontSize = size + "pt";
+        }
+        function decrease() {
+          fontSize--;
+          updateFontSize(fontSize);
+        }
+        function increase() {
+          fontSize++;
+          updateFontSize(fontSize);
+        }
+        
+        updateFontSize(fontSize);
+        
+        var smallerButton = document.getElementById("button-smaller");
+        smallerButton.addEventListener('click', decrease, false);
+        var biggerButton = document.getElementById("button-bigger");
+        biggerButton.addEventListener('click', increase, false);
+        
         </script>
+       
+
 
       </body>
          
