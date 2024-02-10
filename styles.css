@@ -49,8 +49,9 @@ tr:nth-child(odd) {
 
 /* Navigation menu styles */
 ul {
-    background-color: lightblue;
-    padding: 10px 0;
+     background-color: lightblue;
+    padding: 20px 0; 
+    height: 40px;
 }
 
 li {
@@ -59,7 +60,7 @@ li {
 
 li a {
     display: inline-block;
-    color: white;
+    color: black; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -79,6 +80,8 @@ li a:hover {
     padding: 25px 50px;
     background-color: lightblue;
 }
+.center {
+    text-align: center;
 
 /* Centered section styles */
 .centered-section {
