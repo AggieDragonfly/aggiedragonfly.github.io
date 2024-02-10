@@ -32,10 +32,11 @@ pre {
     border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
 }
 
-#IMG_4575-kopia.jpeg {
-   width: 370px;
-    border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
+.custom-image {
+    width: 370px; /* Ustawienie szerokości na 370 pikseli */
+    border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%; /* Ustawienie zaokrąglonego kształtu */
 }
+
 
 /* Table styles */
 tr:nth-child(even) {
