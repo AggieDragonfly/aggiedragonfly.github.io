@@ -6,22 +6,17 @@ body {
 
 /* Header styles */
 h1 {
+   font-family: "Jazz LET", sans-serif; /* Ustawienie czcionki na "Jazz LET" */
     color: rgb(0, 0, 2);
     font-family: monospace;
     font-weight: bold;
     font-size: 50pt;
 }
 
-h2 {
-    font-family: "Jazz LET", sans-serif; /* Ustawienie czcionki na "Jazz LET" */
-}
-
-
 /* Preformatted text styles */
 pre {
     color: lightgray;
-    background-color: darkgray;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgray;   
 }
 
 /* Custom classes */
