@@ -1,14 +1,13 @@
 /* Global styles */
 body {
    background-color: white;
-    font-family: "Jazz LET", "Verdana", sans-serif;
+    font-family: Didot, serif;
 }
 
 /* Header styles */
 h1 {
-   font-family: "Jazz LET", sans-serif; /* Ustawienie czcionki na "Jazz LET" */
+    font-family: 'Brush Script MT', cursive; /* Ustawienie czcionki przypominającej pismo ręczne dla nagłówków */
     color: rgb(0, 0, 2);
-    font-family: monospace;
     font-weight: bold;
     font-size: 50pt;
 }
