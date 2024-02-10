@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    background-color: cornsilk;
+   background-color: white;
     font-family: "Lucida Console", "Courier New", sans-serif;
 }
 
@@ -89,6 +89,6 @@ li a:hover {
 
 /* Separator line styles */
 .separator {
-    border-bottom: 1px solid black;
+     border-bottom: 1px solid black;
     margin-bottom: 20px;
 }
