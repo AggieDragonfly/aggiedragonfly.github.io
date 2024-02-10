@@ -1,7 +1,7 @@
 /* Global styles */
 body {
    background-color: white;
-    font-family: "azz LET", "Zeyada", sans-serif;
+    font-family: "Jazz LET", "Verdana", sans-serif;
 }
 
 /* Header styles */
@@ -11,6 +11,11 @@ h1 {
     font-weight: bold;
     font-size: 50pt;
 }
+
+h2 {
+    font-family: "Jazz LET", sans-serif; /* Ustawienie czcionki na "Jazz LET" */
+}
+
 
 /* Preformatted text styles */
 pre {
