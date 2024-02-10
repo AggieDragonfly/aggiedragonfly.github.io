@@ -99,3 +99,20 @@ li a:hover {
      border-bottom: 4px solid black;
     margin-bottom: 20px;
 }
+   .contact-form-container {
+    width: 60%; /* Okno kontaktowe jest 60% szerokości strony */
+    margin: 0 auto; /* Centralnie umieszczone */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px; /* Zaokrąglone rogi */
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container h2 {
+    text-align: center;
+}
+
