@@ -46,32 +46,32 @@ tr:nth-child(odd) {
     width: 85%;
 }
 
-/* Navigation menu styles */
 ul {
     background-color: lightblue;
     padding: 20px 0; /* Zwiększenie odstępu górnego i dolnego */
     height: 40px; /* Nowa wysokość paska nawigacji */
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px; /* Zaokrąglenie na końcach */
     overflow: hidden; /* Zapobieganie wypływaniu elementów potomnych */
 }
 
-
 li {
     float: left;
+    list-style: none; /* Usunięcie domyślnych kropek */
+    margin-right: 10px; /* Dodanie odstępu między linkami */
 }
 
 li a {
     display: inline-block;
-    color: black; 
+    color: black; /* Zmiana koloru tekstu na czarny */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 20px; /* Zaokrąglenie linków */
+    transition: background-color 0.3s; /* Płynne przejście koloru tła */
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: orange; /* Zmiana tła na pomarańczowe po najechaniu */
 }
 
 .active {
