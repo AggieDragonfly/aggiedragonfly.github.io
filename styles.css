@@ -6,7 +6,7 @@ body {
 
 /* Header styles */
 h1 {
-    font-family: Snell Roundhand, serif; 
+    font-family: Trattatello, serif; 
     color: rgb(0, 0, 2);
     font-weight: bold;
     font-size: 60pt;
@@ -29,6 +29,11 @@ pre {
 
 #bigos {
     width: 370px;
+    border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
+}
+
+#IMG_4575-kopia.jpeg {
+   width: 370px;
     border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
 }
 
