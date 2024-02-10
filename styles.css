@@ -27,12 +27,12 @@ pre {
     font-weight: bold;
 }
 
-#bigos {
+.custom-image {
     width: 370px;
-    border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
+    border-radius: 91% 93% 0% 96% / 93% 91% 0% 96%; 
 }
 
-.custom-image {
+.custom-image2 {
     width: 370px; /* Ustawienie szerokości na 370 pikseli */
     border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%; /* Ustawienie zaokrąglonego kształtu */
 }
