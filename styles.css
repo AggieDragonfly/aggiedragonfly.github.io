@@ -1,82 +1,94 @@
+/* Global styles */
 body {
     background-color: cornsilk;
     font-family: "Lucida Console", "Courier New", sans-serif;
 }
 
+/* Header styles */
 h1 {
     color: rgb(0, 0, 2);
     font-family: monospace;
     font-weight: bold;
-    font-style: "Lucida Console", "Courier New", monospace;
     font-size: 50pt;
 }
 
+/* Preformatted text styles */
 pre {
     color: lightgray;
     background-color: darkgray;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.greentext{
+/* Custom classes */
+.greentext {
     color: green;
 }
 
-.boldtext{
+.boldtext {
     font-weight: bold;
 }
 
+/* ID styles */
 #bigos {
-    width:370px;
+    width: 370px;
     border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
 }
 
-tr:nth-child(even) {background: #CCC}
-tr:nth-child(odd) {background: #FFF}
+/* Table styles */
+tr:nth-child(even) {
+    background: #CCC;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
 
 .tablesize {
     width: 85%;
 }
 
-.center {
-    text-align: center;
-  }
+/* Navigation menu styles */
+ul {
+    background-color: lightblue;
+    padding: 10px 0;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: red;
-  }
+}
 
-  div {
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+/* Content container styles */
+.container {
     border: 1px solid black;
     padding: 25px 50px;
     background-color: lightblue;
-  }
-
-.center {
-  background-color: mintcream;
 }
 
+/* Centered section styles */
+.centered-section {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
+/* Separator line styles */
+.separator {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
