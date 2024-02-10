@@ -1,10 +1,15 @@
-<html>
-    <head>
-      <link rel="stylesheet" href="styles.css">
-        <title>My first web page!</title>
-    </head>
-    <body>
-      <ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>My first web page!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="aboutme.html">About Me</a></li>
@@ -14,22 +19,17 @@
         <p>If you like my projects, please contact me! </p>
         <!DOCTYPE html>
 <html lang="en">
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <h2>Contact Me</h2>
-    <form action="send_email.php" method="POST">
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Your Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-        <input type="submit" value="Send Message">
-    </form>
-    
-      </body>
-         
-
+    <div class="contact-form-container">
+        <h2>Contact Me</h2>
+        <form action="send_email.php" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</body>
 </html>
