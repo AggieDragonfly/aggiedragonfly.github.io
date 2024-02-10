@@ -48,11 +48,9 @@ tr:nth-child(odd) {
 ul {
     background-color: lightblue;
     padding: 20px 0; /* Zwiększenie odstępu górnego i dolnego */
-    height: 40px; /* Nowa wysokość paska nawigacji */
+    height: 50px; /* Nowa wysokość paska nawigacji */
     border-radius: 10px; /* Zaokrąglenie na końcach */
     overflow: hidden; /* Zapobieganie wypływaniu elementów potomnych */
-    margin: 0; /* Usunięcie domyślnego marginesu */
-    padding: 0; /* Usunięcie domyślnego paddingu */
 }
 
 li {
