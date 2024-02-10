@@ -96,6 +96,6 @@ li a:hover {
 
 /* Separator line styles */
 .separator {
-     border-bottom: 1px solid black;
+     border-bottom: 4px solid black;
     margin-bottom: 20px;
 }
