@@ -28,7 +28,6 @@ pre {
     font-weight: bold;
 }
 
-/* ID styles */
 #bigos {
     width: 370px;
     border-radius: 93% 91% 0% 96% / 93% 91% 0% 96%;
@@ -52,7 +51,9 @@ ul {
     background-color: lightblue;
     padding: 20px 0; /* Zwiększenie odstępu górnego i dolnego */
     height: 40px; /* Nowa wysokość paska nawigacji */
-    border-radius: 10px; /* Zaokrąglenie na końcach */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     overflow: hidden; /* Zapobieganie wypływaniu elementów potomnych */
 }
 
