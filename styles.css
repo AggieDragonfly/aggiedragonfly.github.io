@@ -6,10 +6,10 @@ body {
 
 /* Header styles */
 h1 {
-    font-family: Snell Roundhand, serif; /* Ustawienie czcionki przypominającej pismo ręczne dla nagłówków */
+    font-family: Snell Roundhand, serif; 
     color: rgb(0, 0, 2);
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 60pt;
 }
 
 /* Preformatted text styles */
@@ -55,13 +55,13 @@ ul {
 
 li {
     float: left;
-    list-style: none; /* Usunięcie domyślnych kropek */
+    list-style: none;
     margin-right: 10px; /* Dodanie odstępu między linkami */
 }
 
 li a {
     display: inline-block;
-    color: black; /* Zmiana koloru tekstu na czarny */
+    color: black; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
