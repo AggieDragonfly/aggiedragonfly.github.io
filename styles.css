@@ -128,3 +128,14 @@ li a:hover {
     margin-right: 15px;
 }
 
+.chart-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#population-chart {
+  width: 100%;
+  height: 400px;
+}
+
+
